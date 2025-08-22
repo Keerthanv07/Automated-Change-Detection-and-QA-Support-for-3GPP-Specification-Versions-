@@ -87,4 +87,5 @@ Compare release 10 and release 17
 is MUSIM feature supported in rel17?
 Is PS SRVCC handover a new feature in Rel 17 ?
 What are the new features in release 17?
+
 Summarize release 10
