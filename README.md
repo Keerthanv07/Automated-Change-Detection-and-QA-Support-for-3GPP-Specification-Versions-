@@ -13,21 +13,30 @@ Features
 » Semantic Search – Retrieves relevant chunks based on user queries using HuggingFace sentence-transformers.
 
 » Version Comparison – Compares two releases (e.g., Release 12 vs Release 13) and outputs modified, added, and deleted sections.
+
 » Change Detection – Uses cosine similarity + Jaccard similarity for semantic difference classification.
+
 » Persistent Storage – All embeddings and chat history are stored in ChromaDB for fast retrieval.
+
 » Interactive Chat UI – Built with Streamlit, includes user authentication (login/signup) and chat history management.
+
 » LLM Integration – Uses Cohere API for natural language processing (summary & comparison).
 
 Project Structure
+
 ├── embed2.py      # Handles document loading, text chunking, embedding, and storing in ChromaDB
+
 ├── release8.py    # Streamlit-based chat interface for querying and interacting with the assistant
+
 ├── wver2.py       # Handles version comparison, semantic change detection, and summary embedding
+
 └── chroma_storage # Directory for persistent ChromaDB storage (auto-created)
 
 
 Tech Stack
 
 • Language: Python 3.x
+
 • Libraries:
     Streamlit – UI framework
     Cohere – LLM for summaries & comparisons
@@ -35,6 +44,7 @@ Tech Stack
     ChromaDB – Vector database for storage & retrieval
     scikit-learn – Cosine similarity
     LlamaIndex – Document loading
+
 • Database: ChromaDB (persistent local storage)
 
 
@@ -91,4 +101,5 @@ Is PS SRVCC handover a new feature in Rel 17 ?
 What are the new features in release 17?
 
 Summarize release 10
+
 
