@@ -9,7 +9,9 @@ This project is an AI-powered assistant for 3GPP documentation. It provides two 
 Features
 
 » Upload and Embed Documents – Converts 3GPP PDFs/DOCX/HTML into embeddings and stores them in ChromaDB.
+
 » Semantic Search – Retrieves relevant chunks based on user queries using HuggingFace sentence-transformers.
+
 » Version Comparison – Compares two releases (e.g., Release 12 vs Release 13) and outputs modified, added, and deleted sections.
 » Change Detection – Uses cosine similarity + Jaccard similarity for semantic difference classification.
 » Persistent Storage – All embeddings and chat history are stored in ChromaDB for fast retrieval.
@@ -89,3 +91,4 @@ Is PS SRVCC handover a new feature in Rel 17 ?
 What are the new features in release 17?
 
 Summarize release 10
+
